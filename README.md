@@ -37,3 +37,21 @@ pnpm build
 ```sh
 pnpm lint
 ```
+
+## capacitor
+
+### 打包
+
+```sh
+pnpm build
+npx cap copy android
+```
+
+接著使用 android studio 去生成 apk 檔案等
+
+### 開發
+
+```sh
+npx cap sync android
+npx cap open android
+```
